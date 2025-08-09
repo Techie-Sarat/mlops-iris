@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  mlops-iris:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs
+      - ./models:/app/models
+    environment:
+      - FLASK_ENV=production
+    restart: unless-stopped
+
+  mlflow:
+    image: python:3.9-slim
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./mlruns:/mlruns
+    command: >
+      bash -c "pip install mlflow && 
+               mlflow server --host 0.0.0.0 --port 5001 --backend-store-uri file:///mlruns"
