@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/projects/mlops-iris/mlruns/500466367070581280/0dd530ef52da42f991a097dbdd5e1347/artifacts
+end_time: 1754760288066
+entry_point_name: ''
+experiment_id: '500466367070581280'
+lifecycle_stage: active
+run_id: 0dd530ef52da42f991a097dbdd5e1347
+run_name: svm
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754760283671
+status: 3
+tags: []
+user_id: Sarat Muddu

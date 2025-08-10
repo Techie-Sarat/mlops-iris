@@ -1,0 +1,22 @@
+2025-08-09 22:51:09,580 - ERROR - Error loading model: [Errno 2] No such file or directory: 'models/best_model.joblib'
+2025-08-09 22:51:09,684 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2025-08-09 22:51:09,685 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-09 22:51:09,689 - INFO -  * Restarting with stat
+2025-08-09 22:51:10,593 - ERROR - Error loading model: [Errno 2] No such file or directory: 'models/best_model.joblib'
+2025-08-09 22:51:10,659 - WARNING -  * Debugger is active!
+2025-08-09 22:51:10,667 - INFO -  * Debugger PIN: 997-803-440
+2025-08-09 22:51:21,075 - INFO - 127.0.0.1 - - [09/Aug/2025 22:51:21] "[33mPOST /ajax-api/2.0/mlflow/runs/search HTTP/1.1[0m" 404 -
+2025-08-09 22:51:22,060 - INFO - 127.0.0.1 - - [09/Aug/2025 22:51:22] "[33mPOST /ajax-api/2.0/mlflow/runs/search HTTP/1.1[0m" 404 -
+2025-08-09 22:59:05,840 - ERROR - Error loading model: [Errno 2] No such file or directory: 'models/best_model.joblib'
+2025-08-09 22:59:05,939 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.105:5000
+2025-08-09 22:59:05,960 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-09 22:59:05,964 - INFO -  * Restarting with stat
+2025-08-09 22:59:06,694 - ERROR - Error loading model: [Errno 2] No such file or directory: 'models/best_model.joblib'
+2025-08-09 22:59:06,760 - WARNING -  * Debugger is active!
+2025-08-09 22:59:06,769 - INFO -  * Debugger PIN: 997-803-440

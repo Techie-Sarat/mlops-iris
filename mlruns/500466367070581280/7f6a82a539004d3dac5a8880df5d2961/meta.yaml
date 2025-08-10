@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/projects/mlops-iris/mlruns/500466367070581280/7f6a82a539004d3dac5a8880df5d2961/artifacts
+end_time: 1754761368748
+entry_point_name: ''
+experiment_id: '500466367070581280'
+lifecycle_stage: active
+run_id: 7f6a82a539004d3dac5a8880df5d2961
+run_name: random_forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754761363985
+status: 3
+tags: []
+user_id: Sarat Muddu

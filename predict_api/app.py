@@ -22,12 +22,30 @@ logging.basicConfig(
 )
 
 # Load model
+print("Current working directory:", os.getcwd())
+print("Checking if model file exists:", os.path.exists('models/best_model.joblib'))
+
 try:
     model = joblib.load('models/best_model.joblib')
+    print("Model loaded successfully in try block")
+    print("Model type:", type(model))
+    print("Model is None:", model is None)
     logging.info("Model loaded successfully")
 except Exception as e:
+    print("Exception during model loading:", str(e))
+    print("Exception type:", type(e))
     logging.error(f"Error loading model: {e}")
     model = None
+
+print("Final model status:", model is not None)
+
+# # Load model
+# try:
+#     model = joblib.load('models/best_model.joblib')
+#     logging.info("Model loaded successfully")
+# except Exception as e:
+#     logging.error(f"Error loading model: {e}")
+#     model = None
 
 # Pydantic model for input validation
 class PredictionRequest(BaseModel):
@@ -167,4 +185,4 @@ def metrics():
 
 if __name__ == '__main__':
     init_db()
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)

@@ -1,0 +1,10 @@
+.git
+.github
+__pycache__
+*.pyc
+.pytest_cache
+mlruns/
+logs/*.log
+logs/*.db
+.env
+README.md
