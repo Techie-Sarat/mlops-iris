@@ -177,3 +177,7 @@ features
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.0.105:5000
 2025-08-10 19:15:11,850 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-10 19:37:13,621 - INFO - Model loaded successfully
+2025-08-11 08:59:06,723 - INFO - Model loaded successfully
+2025-08-11 09:00:08,912 - INFO - Model loaded successfully
+2025-08-11 09:03:04,186 - INFO - Model loaded successfully
